@@ -1,25 +1,22 @@
 import { useState } from "react";
 import "./App.css";
 import { Theme, Button } from "react-daisyui";
+import { BrowserRouter as Router } from "react-router-dom";
+
+import Navbar from "./components/layout/NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <Theme dataTheme="cyberpunk">
-      <div className="flex h-screen">
-        <div className="m-auto">
-          <div className="text-6xl text-red-600">{count}</div>
-          <Button
-            color="primary"
-            type="button"
-            onClick={() => setCount((count) => count + 1)}
-          >
-            count+
-          </Button>
+    <Router>
+      <Theme dataTheme="cyberpunk">
+        <div className="flex flex-col justify-between h-screen">
+          <Navbar />
+          <main>Content</main>
         </div>
-      </div>
-    </Theme>
+      </Theme>
+    </Router>
   );
 }
 
