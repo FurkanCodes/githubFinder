@@ -11,7 +11,7 @@ function Notfound() {
         <div class="w-full flex flex-col items-center relative z-10">
              
           <h1 class="font-extrabold text-center text-black leading-tight sm:text-base lg:text-neutral-content  ">
-            This page is gone in time, like tears in a rain
+            This page is gone in time, like tears in rain
           </h1>
              
           <p className="font-extrabold text-7xl text-black animate-bounce leading-tight  lg:text-neutral-content  ">
