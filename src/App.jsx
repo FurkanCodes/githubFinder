@@ -13,7 +13,7 @@ function App() {
   return (
     <Router>
       <Theme dataTheme="cyberpunk">
-        <div className="flex flex-col justify-between h-screen">
+        <div className="flex flex-col justify-between">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
