@@ -8,24 +8,27 @@ import Footer from "./components/layout/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Notfound from "./pages/Notfound";
+import { GithubProvider } from "./context/github/GithubContext";
 
 function App() {
   return (
-    <Router>
-      <Theme dataTheme="cyberpunk">
-        <div className="flex flex-col justify-between">
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/notfound" element={<Notfound />} />
-            <Route path="/*" element={<Notfound />} />
-          </Routes>
+    <GithubProvider>
+      <Router>
+        <Theme dataTheme="cyberpunk">
+          <div className="flex flex-col justify-between">
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/notfound" element={<Notfound />} />
+              <Route path="/*" element={<Notfound />} />
+            </Routes>
 
-          <Footer />
-        </div>
-      </Theme>
-    </Router>
+            <Footer />
+          </div>
+        </Theme>
+      </Router>
+    </GithubProvider>
   );
 }
 
