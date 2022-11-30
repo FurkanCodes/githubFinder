@@ -5,7 +5,7 @@ import pierre from "../assets/fullPierre.jpg";
 
 function Notfound() {
   return (
-    <div class=" relative overflow-hidden h-screen ">
+    <div class=" relative overflow-hidden  ">
       <img
         src={pierre}
         class="absolute object-cover  sm:object-scale-down bg-cover"
