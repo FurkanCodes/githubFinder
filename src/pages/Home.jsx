@@ -5,7 +5,7 @@ import UserSearch from "../components/users/UserSearch";
 
 function Home() {
   return (
-    <div>
+    <div className="">
       <UserSearch />
       <UserList />
     </div>
