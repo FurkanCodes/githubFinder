@@ -45,7 +45,7 @@ function User() {
 
   return (
     <>
-      <div className="w-full mx-auto lg:w-10/12">
+      <div className="mx-auto lg:w-10/12">
         <div className="mb-4">
           <Link to="/" className="btn btn-ghost">
             Back to Search
@@ -101,7 +101,7 @@ function User() {
                   <div className="stat-title text-md">Website</div>
                   <div className="text-lg stat-value">
                     <a
-                      href={`https://${blog}`}
+                      href={`${blog}`}
                       target="_blank"
                       rel="noreferrer"
                     >

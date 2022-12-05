@@ -19,7 +19,7 @@ function App() {
       <AlertProvider>
         <Router>
           <Theme dataTheme="cyberpunk">
-            <div className="h-screen flex flex-col justify-between mb-auto">
+            <div className="min-h-screen flex flex-col justify-between">
               <Navbar />
               <main className="container mx-auto px-3 pb-12 ">
                 <Alert />

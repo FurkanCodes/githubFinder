@@ -4,7 +4,7 @@ function RepoList({ repos }) {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <div className="card-body items-center text-center">
-        <h2 className="card-title">Top Repos</h2>
+        <h2 className="card-title">Latest Repos</h2>
         {repos.map((repo) => (
           <h2>{repo.name}</h2>
         ))}
