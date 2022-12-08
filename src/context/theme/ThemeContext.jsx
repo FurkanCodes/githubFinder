@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("cyberpunk");
 
   const setDark = () => {
-    setTheme("dark");
+    setTheme("black");
   };
 
   const setCyberpunk = () => {
