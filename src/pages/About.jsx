@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -13,9 +14,9 @@ function About() {
           <p className="mb-5">
             My name is Furkan and this is an app to search for Github Users
           </p>
-          <a href="/" className="btn btn-primary">
+          <Link to="/" className="btn ">
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </div>

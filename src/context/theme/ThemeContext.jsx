@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("cyberpunk");
 
   const setDark = () => {
-    setTheme("black");
+    setTheme("dark");
   };
 
   const setCyberpunk = () => {
@@ -17,6 +17,22 @@ export const ThemeProvider = ({ children }) => {
     setTheme("retro");
   };
 
+  const setBlack = () => {
+    setTheme("black");
+  };
+
+  const setWireframe = () => {
+    setTheme("wireframe");
+  };
+
+  const setSynthwave = () => {
+    setTheme("synthwave");
+  };
+
+  const setLight = () => {
+    setTheme("light");
+  };
+
   return (
     <ThemeContext.Provider
       value={{
@@ -24,6 +40,10 @@ export const ThemeProvider = ({ children }) => {
         setDark,
         setCyberpunk,
         setRetro,
+        setBlack,
+        setWireframe,
+        setSynthwave,
+        setLight,
       }}
     >
       {children}
