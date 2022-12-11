@@ -26,12 +26,16 @@ Install with npm
     
 ## Screenshots
 User Profile
-
+![App Screenshot](https://i.hizliresim.com/cgyeyee.png)
+Welcome Page
+![App Screenshot](https://i.hizliresim.com/4qzepv5.png)
 Error Page
 ![App Screenshot](https://i.hizliresim.com/a73vtsp.png)
+One of the themes
 ![App Screenshot](https://i.hizliresim.com/62e86uj.png)
+Search Page
 ![App Screenshot](https://i.hizliresim.com/hlestjm.png)
-![App Screenshot](https://i.hizliresim.com/4qzepv5.png)
+
 ## Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
