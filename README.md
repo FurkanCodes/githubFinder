@@ -25,7 +25,9 @@ Install with npm
 ```
     
 ## Screenshots
+User Profile
 
+Error Page
 ![App Screenshot](https://i.hizliresim.com/a73vtsp.png)
 ![App Screenshot](https://i.hizliresim.com/62e86uj.png)
 ![App Screenshot](https://i.hizliresim.com/hlestjm.png)
