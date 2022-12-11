@@ -20,7 +20,7 @@ function About() {
             <FaReact className="text-5xl" />
             <p className="pt-5">Tailwind</p>
 
-            <p className="pt-5">and DaisyUI</p>
+            <p className="pt-5">DaisyUI</p>
           </div>
         </div>
       </div>
