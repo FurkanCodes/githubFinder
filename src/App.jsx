@@ -7,6 +7,7 @@ import Alert from "./components/layout/Alert";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Notfound from "./pages/Notfound";
+
 import User from "./components/users/User";
 import { GithubProvider } from "./context/github/GithubContext";
 import { AlertProvider } from "./context/alert/AlertContext";

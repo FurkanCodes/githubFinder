@@ -1,12 +1,15 @@
 import React from "react";
+import RepoItem from "./RepoItem";
 
 function RepoList({ repos }) {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">Latest Repos</h2>
+    <div className="rounded-lg shadow-lg card bg-base-100">
+      <div className="card-body">
+        <h2 className="text-3xl my-4 font-bold card-title">
+          Latest Repositories
+        </h2>
         {repos.map((repo) => (
-          <h2>{repo.name}</h2>
+          <RepoItem key={repo.id} repo={repo} />
         ))}
       </div>
     </div>
