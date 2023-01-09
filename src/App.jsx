@@ -1,6 +1,6 @@
 import "./App.css";
 import { Theme, Button } from "react-daisyui";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/layout/NavBar";
 import Footer from "./components/layout/Footer";
 import Alert from "./components/layout/Alert";
